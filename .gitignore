@@ -1,0 +1,26 @@
+# Ignore the entire folder containing the raw CSVs
+data
+
+# Ignore any .csv files (if you want to keep just the raw data folder ignored)
+*.csv
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories (if applicable)
+env/
+venv/
+
+# Ignore configuration or log files (if applicable)
+*.log
+*.json
+
+# Ignore other common IDE and system files
+.vscode/
+.idea/
+.DS_Store
+._*
