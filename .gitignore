@@ -1,6 +1,10 @@
 # Ignore the entire folder containing the raw CSVs
 data
 
+# Ignore serialized model files (can be large)
+models/*.pkl
+models/*.joblib
+
 # Ignore any .csv files (if you want to keep just the raw data folder ignored)
 *.csv
 
